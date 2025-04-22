@@ -1,0 +1,134 @@
+/* Basic Wikipedia-like styling */
+
+body {
+    font-family: "Georgia", serif;
+    background-color: #f8f9fa;
+    color: #202122;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3366cc;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+#search-form {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+    width: 200px;
+}
+
+#search-form button {
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #f8f9fa;
+    color: #3366cc;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+    transition: background-color 0.3s ease;
+}
+
+#search-form button:hover {
+    background-color: #e2e6ea;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.featured-article {
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border: 1px solid #a2a9b1;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.featured-article h2 {
+    margin-top: 0;
+    font-weight: normal;
+    color: #3366cc;
+}
+
+.featured-article article h3 {
+    margin-top: 0;
+}
+
+.featured-article article p {
+    font-size: 1.1rem;
+}
+
+.featured-article article a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.featured-article article a:hover {
+    text-decoration: underline;
+}
+
+.articles h2 {
+    color: #3366cc;
+    font-weight: normal;
+}
+
+.articles ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.articles ul li {
+    margin-bottom: 0.5rem;
+}
+
+.articles ul li a {
+    color: #3366cc;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.articles ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #6a737d;
+    border-top: 1px solid #a2a9b1;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: #6a737d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
